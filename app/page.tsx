@@ -23,7 +23,7 @@ export default function Home() {
                 {post.title}
               </h2>
               <p className="mt-2 text-gray-600">
-                Click to read more about "{post.title}".
+                Click to read more about &quot;{post.title}&quot;.
               </p>
             </Link>
           ))}
